@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Astronauta</title>
+
+    <style>
+        .fundo{
+            position: relative;
+            height: 100vh;
+            background-image: url('imagens/espaco.jpg');
+            background-size: 100% 100%;
+
+
+        }
+        .astronauta{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            background-size: 100% 100%;
+            background-image: url('imagens/astronauta.png');
+           transform: translate(-50% -50%);
+        
+        }
+    </style>
+</head>
+<body>
+    
+        <div>
+            <img src="imagens/espaco.jpg" alt="" class="fundo">
+                <img src="imagens/astronauta.png" alt="astronauta" id="astronauta" class="astroanauta">
+        </div>
+
+</body>
+</html>
